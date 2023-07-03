@@ -1,0 +1,57 @@
+{
+  "userList": [
+    {
+      "name": "Hương",
+      "email": "asdas",
+      "phoneNumber": "121221",
+      "block": false,
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "userName": "admin",
+      "password": "123",
+      "isAdmin": true,
+      "firstName": "Thu",
+      "lastName": "Hương",
+      "email": "thuhuong@gmail.com",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/learnfirebase-afb02.appspot.com/o/userAvatars%2Fadmin.jpg?alt=media&token=3482a408-7ed1-41c6-b18f-eb730dc02623",
+      "carts": [
+        {
+          "productId": 1,
+          "quantity": 5,
+          "des": "123"
+        },
+        {
+          "productId": 2,
+          "quantity": 5,
+          "des": "123"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "userName": "ntbphuoc",
+      "password": "123456",
+      "isAdmin": true,
+      "firstName": "Phước",
+      "lastName": "Nguyễn",
+      "email": "thuhuong@gmail.com",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/learnfirebase-afb02.appspot.com/o/userAvatars%2Fadmin.jpg?alt=media&token=3482a408-7ed1-41c6-b18f-eb730dc02623",
+      "carts": [
+        {
+          "productId": 1,
+          "quantity": 5,
+          "des": "123"
+        },
+        {
+          "productId": 2,
+          "quantity": 5,
+          "des": "123"
+        }
+      ]
+    }
+  ]
+}
