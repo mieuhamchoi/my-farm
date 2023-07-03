@@ -1,0 +1,37 @@
+@import "@varScss";
+
+.loginForm_container {
+    width: 100%;
+    .title_groups {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        .title_text {
+            font-family: $fontTitle;
+            font-weight: 900;
+            font-size: 30px;
+        }
+    }
+    .btn_groups {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+    .switch_groups {
+        word-wrap: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        .switch_text {
+            font-size: 15px;
+            font-family: $fontLink;
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+            &:hover {
+                color: red;
+            }
+        }
+    }
+}

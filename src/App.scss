@@ -21,7 +21,7 @@
         display: flex;
         justify-content: center;
         height: $heightNavbar;
-
+        background-color: $mainColor;
         .navbar_contents {
             width: 100%;
             max-width: $widthContent;
